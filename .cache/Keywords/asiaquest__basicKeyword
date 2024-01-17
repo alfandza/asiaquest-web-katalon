@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "5238ED7E210B4220426C234ECCA3124C",
+  "keywordClasses": [
+    {
+      "name": "asiaquest.basicKeyword",
+      "keywordMethods": [
+        {
+          "name": "openBrowser",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

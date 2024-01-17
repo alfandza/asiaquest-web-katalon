@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="All Test Case" time="183.513" tests="4" failures="0" errors="0">
+   <testsuite name="All Test Case" tests="4" failures="0" errors="0" time="183.513" skipped="0" timestamp="2024-01-17 22:08:48" hostname="DELL - MII-YOGI" id="Test Suites/All Test Case">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\DELL\\Katalon Studio\\AsiaQuest Web Testing\\Reports\\20240117_220845\\All Test Case\\20240117_220845"/>
+         <property name="logFiles" value="C:\\Users\\DELL\\Katalon Studio\\AsiaQuest Web Testing\\Reports\\20240117_220845\\All Test Case\\20240117_220845\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DELL - MII-YOGI"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.6.208"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.41"/>
+         <property name="sessionId" value="b1361798759a5dc1789f6fa8f1e37ecd"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/1 - Open Browser" time="12.449" classname="Test Cases/1 - Open Browser" status="PASSED">
+         <system-out><![CDATA[2024-01-17 22:08:49 - [TEST_CASE][PASSED] - Test Cases/1 - Open Browser: Test Cases/1 - Open Browser
+
+2024-01-17 22:08:49 - [TEST_STEP][PASSED] - openBrowser("https://aqi.co.id"): Browser is opened with url: 'https://aqi.co.id'
+
+2024-01-17 22:08:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-17 22:08:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-17 22:08:57 - [MESSAGE][PASSED] - Browser is opened with url: 'https://aqi.co.id'
+
+2024-01-17 22:08:57 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-17 22:08:57 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-17 22:08:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("AsiaQuest Main Page/Image Check Page"), 5): Object 'Object Repository/AsiaQuest Main Page/Image Check Page' is present
+
+2024-01-17 22:08:59 - [MESSAGE][PASSED] - Object 'Object Repository/AsiaQuest Main Page/Image Check Page' is present
+
+2024-01-17 22:08:59 - [TEST_STEP][PASSED] - click(findTestObject("AsiaQuest Main Page/ConfirmCookies")): Object: 'Object Repository/AsiaQuest Main Page/ConfirmCookies' is clicked on
+
+2024-01-17 22:09:00 - [MESSAGE][PASSED] - Object: 'Object Repository/AsiaQuest Main Page/ConfirmCookies' is clicked on
+
+2024-01-17 22:09:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-17 22:09:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/2 - Open All Menu Tab" time="58.15" classname="Test Cases/2 - Open All Menu Tab" status="PASSED">
+         <system-out><![CDATA[2024-01-17 22:09:01 - [TEST_CASE][PASSED] - Test Cases/2 - Open All Menu Tab: Test Cases/2 - Open All Menu Tab
+
+2024-01-17 22:09:01 - [TEST_STEP][PASSED] - asiaquest.basicKeyword.openBrowser(): asiaquest.basicKeyword.openBrowser is PASSED
+
+2024-01-17 22:09:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-17 22:09:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-17 22:09:29 - [MESSAGE][PASSED] - Browser is opened with url: 'https://aqi.co.id'
+
+2024-01-17 22:09:29 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-17 22:09:30 - [MESSAGE][PASSED] - Object 'Object Repository/AsiaQuest Main Page/Image Check Page' is present
+
+2024-01-17 22:09:31 - [MESSAGE][PASSED] - Object: 'Object Repository/AsiaQuest Main Page/ConfirmCookies' is clicked on
+
+2024-01-17 22:09:32 - [MESSAGE][PASSED] - asiaquest.basicKeyword.openBrowser is PASSED
+
+2024-01-17 22:09:32 - [TEST_STEP][PASSED] - for ([i = 1, i < 7, (i++)]): Web element with id: 'Object Repository/AsiaQuest Main Page/HeaderMenuActive' located by 'By.xpath: //li[@class='hs-menu-item hs-menu-depth-1 hs-item-has-children is-open']' is not present after '5' second(s)
+
+2024-01-17 22:09:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("AsiaQuest Main Page/HeaderMenu", ["i":i]), 5): Object 'Object Repository/AsiaQuest Main Page/HeaderMenu' is present
+
+2024-01-17 22:09:33 - [MESSAGE][PASSED] - Object 'Object Repository/AsiaQuest Main Page/HeaderMenu' is present
+
+2024-01-17 22:09:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AsiaQuest Main Page/HeaderMenu", ["i":i])): Object: 'Object Repository/AsiaQuest Main Page/HeaderMenu' is clicked on
+
+2024-01-17 22:09:33 - [MESSAGE][PASSED] - Object: 'Object Repository/AsiaQuest Main Page/HeaderMenu' is clicked on
+
+2024-01-17 22:09:33 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2024-01-17 22:09:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2024-01-17 22:09:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("AsiaQuest Main Page/HeaderMenuActive"), 5): Object 'Object Repository/AsiaQuest Main Page/HeaderMenuActive' is present
+
+2024-01-17 22:09:36 - [MESSAGE][PASSED] - Object 'Object Repository/AsiaQuest Main Page/HeaderMenuActive' is present
+
+2024-01-17 22:09:36 - [TEST_STEP][PASSED] - click(findTestObject("AsiaQuest Main Page/HeaderMenuActive")): Object: 'Object Repository/AsiaQuest Main Page/HeaderMenuActive' is clicked on
+
+2024-01-17 22:09:36 - [MESSAGE][PASSED] - Object: 'Object Repository/AsiaQuest Main Page/HeaderMenuActive' is clicked on
+
+2024-01-17 22:09:36 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("AsiaQuest Main Page/HeaderMenuActive"), 5): Web element with id: 'Object Repository/AsiaQuest Main Page/HeaderMenuActive' located by 'By.xpath: //li[@class='hs-menu-item hs-menu-depth-1 hs-item-has-children is-open']' is not present after '5' second(s)
+
+2024-01-17 22:09:37 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/AsiaQuest Main Page/HeaderMenuActive' located by 'By.xpath: //li[@class='hs-menu-item hs-menu-depth-1 hs-item-has-children is-open']' is not present after '5' second(s)
+
+2024-01-17 22:09:37 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("AsiaQuest Main Page/HeaderMenu", ["i":i]), 5): Object 'Object Repository/AsiaQuest Main Page/HeaderMenu' is present
+
+2024-01-17 22:09:37 - [MESSAGE][PASSED] - Object 'Object Repository/AsiaQuest Main Page/HeaderMenu' is present
+
+2024-01-17 22:09:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AsiaQuest Main Page/HeaderMenu", ["i":i])): Object: 'Object Repository/AsiaQuest Main Page/HeaderMenu' is clicked on
+
+2024-01-17 22:09:38 - [MESSAGE][PASSED] - Object: 'Object Repository/AsiaQuest Main Page/HeaderMenu' is clicked on
+
+2024-01-17 22:09:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2024-01-17 22:09:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2024-01-17 22:09:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("AsiaQuest Main Page/HeaderMenuActive"), 5): Object 'Object Repository/AsiaQuest Main Page/HeaderMenuActive' is present
+
+2024-01-17 22:09:40 - [MESSAGE][PASSED] - Object 'Object Repository/AsiaQuest Main Page/HeaderMenuActive' is present
+
+2024-01-17 22:09:40 - [TEST_STEP][PASSED] - click(findTestObject("AsiaQuest Main Page/HeaderMenuActive")): Object: 'Object Repository/AsiaQuest Main Page/HeaderMenuActive' is clicked on
+
+2024-01-17 22:09:41 - [MESSAGE][PASSED] - Object: 'Object Repository/AsiaQuest Main Page/HeaderMenuActive' is clicked on
+
+2024-01-17 22:09:41 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("AsiaQuest Main Page/HeaderMenuActive"), 5): Web element with id: 'Object Repository/AsiaQuest Main Page/HeaderMenuActive' located by 'By.xpath: //li[@class='hs-menu-item hs-menu-depth-1 hs-item-has-children is-open']' is not present after '5' second(s)
+
+2024-01-17 22:09:41 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/AsiaQuest Main Page/HeaderMenuActive' located by 'By.xpath: //li[@class='hs-menu-item hs-menu-depth-1 hs-item-has-children is-open']' is not present after '5' second(s)
+
+2024-01-17 22:09:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("AsiaQuest Main Page/HeaderMenu", ["i":i]), 5): Object 'Object Repository/AsiaQuest Main Page/HeaderMenu' is present
+
+2024-01-17 22:09:42 - [MESSAGE][PASSED] - Object 'Object Repository/AsiaQuest Main Page/HeaderMenu' is present
+
+2024-01-17 22:09:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AsiaQuest Main Page/HeaderMenu", ["i":i])): Object: 'Object Repository/AsiaQuest Main Page/HeaderMenu' is clicked on
+
+2024-01-17 22:09:42 - [MESSAGE][PASSED] - Object: 'Object Repository/AsiaQuest Main Page/HeaderMenu' is clicked on
+
+2024-01-17 22:09:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2024-01-17 22:09:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2024-01-17 22:09:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("AsiaQuest Main Page/HeaderMenuActive"), 5): Object 'Object Repository/AsiaQuest Main Page/HeaderMenuActive' is present
+
+2024-01-17 22:09:44 - [MESSAGE][PASSED] - Object 'Object Repository/AsiaQuest Main Page/HeaderMenuActive' is present
+
+2024-01-17 22:09:44 - [TEST_STEP][PASSED] - click(findTestObject("AsiaQuest Main Page/HeaderMenuActive")): Object: 'Object Repository/AsiaQuest Main Page/HeaderMenuActive' is clicked on
+
+2024-01-17 22:09:45 - [MESSAGE][PASSED] - Object: 'Object Repository/AsiaQuest Main Page/HeaderMenuActive' is clicked on
+
+2024-01-17 22:09:45 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("AsiaQuest Main Page/HeaderMenuActive"), 5): Web element with id: 'Object Repository/AsiaQuest Main Page/HeaderMenuActive' located by 'By.xpath: //li[@class='hs-menu-item hs-menu-depth-1 hs-item-has-children is-open']' is not present after '5' second(s)
+
+2024-01-17 22:09:45 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/AsiaQuest Main Page/HeaderMenuActive' located by 'By.xpath: //li[@class='hs-menu-item hs-menu-depth-1 hs-item-has-children is-open']' is not present after '5' second(s)
+
+2024-01-17 22:09:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("AsiaQuest Main Page/HeaderMenu", ["i":i]), 5): Object 'Object Repository/AsiaQuest Main Page/HeaderMenu' is present
+
+2024-01-17 22:09:46 - [MESSAGE][PASSED] - Object 'Object Repository/AsiaQuest Main Page/HeaderMenu' is present
+
+2024-01-17 22:09:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AsiaQuest Main Page/HeaderMenu", ["i":i])): Object: 'Object Repository/AsiaQuest Main Page/HeaderMenu' is clicked on
+
+2024-01-17 22:09:46 - [MESSAGE][PASSED] - Object: 'Object Repository/AsiaQuest Main Page/HeaderMenu' is clicked on
+
+2024-01-17 22:09:46 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2024-01-17 22:09:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2024-01-17 22:09:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("AsiaQuest Main Page/HeaderMenuActive"), 5): Object 'Object Repository/AsiaQuest Main Page/HeaderMenuActive' is present
+
+2024-01-17 22:09:49 - [MESSAGE][PASSED] - Object 'Object Repository/AsiaQuest Main Page/HeaderMenuActive' is present
+
+2024-01-17 22:09:49 - [TEST_STEP][PASSED] - click(findTestObject("AsiaQuest Main Page/HeaderMenuActive")): Object: 'Object Repository/AsiaQuest Main Page/HeaderMenuActive' is clicked on
+
+2024-01-17 22:09:49 - [MESSAGE][PASSED] - Object: 'Object Repository/AsiaQuest Main Page/HeaderMenuActive' is clicked on
+
+2024-01-17 22:09:49 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("AsiaQuest Main Page/HeaderMenuActive"), 5): Web element with id: 'Object Repository/AsiaQuest Main Page/HeaderMenuActive' located by 'By.xpath: //li[@class='hs-menu-item hs-menu-depth-1 hs-item-has-children is-open']' is not present after '5' second(s)
+
+2024-01-17 22:09:50 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/AsiaQuest Main Page/HeaderMenuActive' located by 'By.xpath: //li[@class='hs-menu-item hs-menu-depth-1 hs-item-has-children is-open']' is not present after '5' second(s)
+
+2024-01-17 22:09:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("AsiaQuest Main Page/HeaderMenu", ["i":i]), 5): Object 'Object Repository/AsiaQuest Main Page/HeaderMenu' is present
+
+2024-01-17 22:09:50 - [MESSAGE][PASSED] - Object 'Object Repository/AsiaQuest Main Page/HeaderMenu' is present
+
+2024-01-17 22:09:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AsiaQuest Main Page/HeaderMenu", ["i":i])): Object: 'Object Repository/AsiaQuest Main Page/HeaderMenu' is clicked on
+
+2024-01-17 22:09:51 - [MESSAGE][PASSED] - Object: 'Object Repository/AsiaQuest Main Page/HeaderMenu' is clicked on
+
+2024-01-17 22:09:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2024-01-17 22:09:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2024-01-17 22:09:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("AsiaQuest Main Page/HeaderMenuActive"), 5): Object 'Object Repository/AsiaQuest Main Page/HeaderMenuActive' is present
+
+2024-01-17 22:09:53 - [MESSAGE][PASSED] - Object 'Object Repository/AsiaQuest Main Page/HeaderMenuActive' is present
+
+2024-01-17 22:09:53 - [TEST_STEP][PASSED] - click(findTestObject("AsiaQuest Main Page/HeaderMenuActive")): Object: 'Object Repository/AsiaQuest Main Page/HeaderMenuActive' is clicked on
+
+2024-01-17 22:09:53 - [MESSAGE][PASSED] - Object: 'Object Repository/AsiaQuest Main Page/HeaderMenuActive' is clicked on
+
+2024-01-17 22:09:53 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("AsiaQuest Main Page/HeaderMenuActive"), 5): Web element with id: 'Object Repository/AsiaQuest Main Page/HeaderMenuActive' located by 'By.xpath: //li[@class='hs-menu-item hs-menu-depth-1 hs-item-has-children is-open']' is not present after '5' second(s)
+
+2024-01-17 22:09:54 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/AsiaQuest Main Page/HeaderMenuActive' located by 'By.xpath: //li[@class='hs-menu-item hs-menu-depth-1 hs-item-has-children is-open']' is not present after '5' second(s)
+
+2024-01-17 22:09:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("AsiaQuest Main Page/HeaderMenu", ["i":i]), 5): Object 'Object Repository/AsiaQuest Main Page/HeaderMenu' is present
+
+2024-01-17 22:09:54 - [MESSAGE][PASSED] - Object 'Object Repository/AsiaQuest Main Page/HeaderMenu' is present
+
+2024-01-17 22:09:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AsiaQuest Main Page/HeaderMenu", ["i":i])): Object: 'Object Repository/AsiaQuest Main Page/HeaderMenu' is clicked on
+
+2024-01-17 22:09:55 - [MESSAGE][PASSED] - Object: 'Object Repository/AsiaQuest Main Page/HeaderMenu' is clicked on
+
+2024-01-17 22:09:55 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2024-01-17 22:09:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2024-01-17 22:09:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("AsiaQuest Main Page/HeaderMenuActive"), 5): Object 'Object Repository/AsiaQuest Main Page/HeaderMenuActive' is present
+
+2024-01-17 22:09:57 - [MESSAGE][PASSED] - Object 'Object Repository/AsiaQuest Main Page/HeaderMenuActive' is present
+
+2024-01-17 22:09:57 - [TEST_STEP][PASSED] - click(findTestObject("AsiaQuest Main Page/HeaderMenuActive")): Object: 'Object Repository/AsiaQuest Main Page/HeaderMenuActive' is clicked on
+
+2024-01-17 22:09:58 - [MESSAGE][PASSED] - Object: 'Object Repository/AsiaQuest Main Page/HeaderMenuActive' is clicked on
+
+2024-01-17 22:09:58 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("AsiaQuest Main Page/HeaderMenuActive"), 5): Web element with id: 'Object Repository/AsiaQuest Main Page/HeaderMenuActive' located by 'By.xpath: //li[@class='hs-menu-item hs-menu-depth-1 hs-item-has-children is-open']' is not present after '5' second(s)
+
+2024-01-17 22:09:58 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/AsiaQuest Main Page/HeaderMenuActive' located by 'By.xpath: //li[@class='hs-menu-item hs-menu-depth-1 hs-item-has-children is-open']' is not present after '5' second(s)
+
+2024-01-17 22:09:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-17 22:09:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/3 - Change Language" time="66.918" classname="Test Cases/3 - Change Language" status="PASSED">
+         <system-out><![CDATA[2024-01-17 22:09:59 - [TEST_CASE][PASSED] - Test Cases/3 - Change Language: Test Cases/3 - Change Language
+
+2024-01-17 22:09:59 - [TEST_STEP][PASSED] - getURL = "": null
+
+2024-01-17 22:09:59 - [TEST_STEP][PASSED] - asiaquest.basicKeyword.openBrowser(): asiaquest.basicKeyword.openBrowser is PASSED
+
+2024-01-17 22:09:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-17 22:09:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-17 22:10:47 - [MESSAGE][PASSED] - Browser is opened with url: 'https://aqi.co.id'
+
+2024-01-17 22:10:47 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-17 22:10:48 - [MESSAGE][PASSED] - Object 'Object Repository/AsiaQuest Main Page/Image Check Page' is present
+
+2024-01-17 22:10:49 - [MESSAGE][PASSED] - Object: 'Object Repository/AsiaQuest Main Page/ConfirmCookies' is clicked on
+
+2024-01-17 22:10:49 - [MESSAGE][PASSED] - asiaquest.basicKeyword.openBrowser is PASSED
+
+2024-01-17 22:10:49 - [TEST_STEP][PASSED] - comment("Change to Japanese"): Change to Japanese
+
+2024-01-17 22:10:49 - [MESSAGE][INFO] - Change to Japanese
+
+2024-01-17 22:10:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AsiaQuest Main Page/ChangeLanguageButton")): Object: 'Object Repository/AsiaQuest Main Page/ChangeLanguageButton' is clicked on
+
+2024-01-17 22:10:50 - [MESSAGE][PASSED] - Object: 'Object Repository/AsiaQuest Main Page/ChangeLanguageButton' is clicked on
+
+2024-01-17 22:10:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("AsiaQuest Main Page/Japanese"), 0): Object 'Object Repository/AsiaQuest Main Page/Japanese' is present
+
+2024-01-17 22:10:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-17 22:10:51 - [MESSAGE][PASSED] - Object 'Object Repository/AsiaQuest Main Page/Japanese' is present
+
+2024-01-17 22:10:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("AsiaQuest Main Page/English"), 0): Object 'Object Repository/AsiaQuest Main Page/English' is present
+
+2024-01-17 22:10:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-17 22:10:51 - [MESSAGE][PASSED] - Object 'Object Repository/AsiaQuest Main Page/English' is present
+
+2024-01-17 22:10:51 - [TEST_STEP][PASSED] - click(findTestObject("AsiaQuest Main Page/Japanese")): Object: 'Object Repository/AsiaQuest Main Page/Japanese' is clicked on
+
+2024-01-17 22:10:52 - [MESSAGE][PASSED] - Object: 'Object Repository/AsiaQuest Main Page/Japanese' is clicked on
+
+2024-01-17 22:10:52 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2024-01-17 22:10:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2024-01-17 22:10:58 - [TEST_STEP][PASSED] - getURL = getUrl(): Current window's url is: 'https://www.asia-quest.jp/'
+
+2024-01-17 22:10:58 - [MESSAGE][PASSED] - Current window's url is: 'https://www.asia-quest.jp/'
+
+2024-01-17 22:10:58 - [TEST_STEP][PASSED] - verifyMatch(getURL, "https://www.asia-quest.jp/", false): Actual text 'https://www.asia-quest.jp/' and expected text 'https://www.asia-quest.jp/' are matched 
+
+2024-01-17 22:10:58 - [MESSAGE][PASSED] - Actual text 'https://www.asia-quest.jp/' and expected text 'https://www.asia-quest.jp/' are matched 
+
+2024-01-17 22:10:58 - [TEST_STEP][PASSED] - comment("Change to English"): Change to English
+
+2024-01-17 22:10:58 - [MESSAGE][INFO] - Change to English
+
+2024-01-17 22:10:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AsiaQuest Main Page/ChangeLanguageButton")): Object: 'Object Repository/AsiaQuest Main Page/ChangeLanguageButton' is clicked on
+
+2024-01-17 22:10:58 - [MESSAGE][PASSED] - Object: 'Object Repository/AsiaQuest Main Page/ChangeLanguageButton' is clicked on
+
+2024-01-17 22:10:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("AsiaQuest Main Page/Japanese"), 0): Object 'Object Repository/AsiaQuest Main Page/Japanese' is present
+
+2024-01-17 22:10:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-17 22:10:58 - [MESSAGE][PASSED] - Object 'Object Repository/AsiaQuest Main Page/Japanese' is present
+
+2024-01-17 22:10:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("AsiaQuest Main Page/English"), 0): Object 'Object Repository/AsiaQuest Main Page/English' is present
+
+2024-01-17 22:10:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-17 22:10:59 - [MESSAGE][PASSED] - Object 'Object Repository/AsiaQuest Main Page/English' is present
+
+2024-01-17 22:10:59 - [TEST_STEP][PASSED] - click(findTestObject("AsiaQuest Main Page/English")): Object: 'Object Repository/AsiaQuest Main Page/English' is clicked on
+
+2024-01-17 22:11:00 - [MESSAGE][PASSED] - Object: 'Object Repository/AsiaQuest Main Page/English' is clicked on
+
+2024-01-17 22:11:00 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2024-01-17 22:11:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2024-01-17 22:11:05 - [TEST_STEP][PASSED] - getURL = getUrl(): Current window's url is: 'https://www.asia-quest.jp/en/'
+
+2024-01-17 22:11:05 - [MESSAGE][PASSED] - Current window's url is: 'https://www.asia-quest.jp/en/'
+
+2024-01-17 22:11:05 - [TEST_STEP][PASSED] - verifyMatch(getURL, "https://www.asia-quest.jp/en/", false): Actual text 'https://www.asia-quest.jp/en/' and expected text 'https://www.asia-quest.jp/en/' are matched 
+
+2024-01-17 22:11:05 - [MESSAGE][PASSED] - Actual text 'https://www.asia-quest.jp/en/' and expected text 'https://www.asia-quest.jp/en/' are matched 
+
+2024-01-17 22:11:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-17 22:11:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/4 - Check Footer Link" time="45.583" classname="Test Cases/4 - Check Footer Link" status="PASSED">
+         <system-out><![CDATA[2024-01-17 22:11:06 - [TEST_CASE][PASSED] - Test Cases/4 - Check Footer Link: Test Cases/4 - Check Footer Link
+
+2024-01-17 22:11:06 - [TEST_STEP][PASSED] - asiaquest.basicKeyword.openBrowser(): asiaquest.basicKeyword.openBrowser is PASSED
+
+2024-01-17 22:11:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-17 22:11:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-17 22:11:32 - [MESSAGE][PASSED] - Browser is opened with url: 'https://aqi.co.id'
+
+2024-01-17 22:11:32 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-17 22:11:33 - [MESSAGE][PASSED] - Object 'Object Repository/AsiaQuest Main Page/Image Check Page' is present
+
+2024-01-17 22:11:34 - [MESSAGE][PASSED] - Object: 'Object Repository/AsiaQuest Main Page/ConfirmCookies' is clicked on
+
+2024-01-17 22:11:34 - [MESSAGE][PASSED] - asiaquest.basicKeyword.openBrowser is PASSED
+
+2024-01-17 22:11:34 - [TEST_STEP][PASSED] - for ([i = 1, i < 4, (i++)]): Actual text 'https://www.asia-quest.jp/en/isms' and expected text 'https://www.asia-quest.jp/en/isms' are matched 
+
+2024-01-17 22:11:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/AsiaQuest Main Page/FooterLink", ["i":i]), 5): Object 'Object Repository/AsiaQuest Main Page/FooterLink' is present
+
+2024-01-17 22:11:35 - [MESSAGE][PASSED] - Object 'Object Repository/AsiaQuest Main Page/FooterLink' is present
+
+2024-01-17 22:11:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AsiaQuest Main Page/FooterLink", ["i":i])): Object: 'Object Repository/AsiaQuest Main Page/FooterLink' is clicked on
+
+2024-01-17 22:11:36 - [MESSAGE][PASSED] - Object: 'Object Repository/AsiaQuest Main Page/FooterLink' is clicked on
+
+2024-01-17 22:11:36 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2024-01-17 22:11:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2024-01-17 22:11:39 - [TEST_STEP][PASSED] - getClass = getAttribute(findTestObject("Object Repository/AsiaQuest Main Page/FooterLink", ["i":i]), "class"): Attribute 'class' of object 'Object Repository/AsiaQuest Main Page/FooterLink' is: 'hs-menu-item hs-menu-depth-1 active active-branch'
+
+2024-01-17 22:11:39 - [MESSAGE][PASSED] - Attribute 'class' of object 'Object Repository/AsiaQuest Main Page/FooterLink' is: 'hs-menu-item hs-menu-depth-1 active active-branch'
+
+2024-01-17 22:11:39 - [TEST_STEP][PASSED] - getHref = getAttribute(findTestObject("Object Repository/AsiaQuest Main Page/FooterLink-A Href", ["i":i]), "href"): Attribute 'href' of object 'Object Repository/AsiaQuest Main Page/FooterLink-A Href' is: 'https://www.asia-quest.jp/en/privacy-policy'
+
+2024-01-17 22:11:40 - [MESSAGE][PASSED] - Attribute 'href' of object 'Object Repository/AsiaQuest Main Page/FooterLink-A Href' is: 'https://www.asia-quest.jp/en/privacy-policy'
+
+2024-01-17 22:11:40 - [TEST_STEP][PASSED] - getURL = getUrl(): Current window's url is: 'https://www.asia-quest.jp/en/privacy-policy'
+
+2024-01-17 22:11:40 - [MESSAGE][PASSED] - Current window's url is: 'https://www.asia-quest.jp/en/privacy-policy'
+
+2024-01-17 22:11:40 - [TEST_STEP][PASSED] - verifyMatch(getClass, "hs-menu-item hs-menu-depth-1 active active-branch", false): Actual text 'hs-menu-item hs-menu-depth-1 active active-branch' and expected text 'hs-menu-item hs-menu-depth-1 active active-branch' are matched 
+
+2024-01-17 22:11:40 - [MESSAGE][PASSED] - Actual text 'hs-menu-item hs-menu-depth-1 active active-branch' and expected text 'hs-menu-item hs-menu-depth-1 active active-branch' are matched 
+
+2024-01-17 22:11:40 - [TEST_STEP][PASSED] - verifyMatch(getURL, getHref, false): Actual text 'https://www.asia-quest.jp/en/privacy-policy' and expected text 'https://www.asia-quest.jp/en/privacy-policy' are matched 
+
+2024-01-17 22:11:40 - [MESSAGE][PASSED] - Actual text 'https://www.asia-quest.jp/en/privacy-policy' and expected text 'https://www.asia-quest.jp/en/privacy-policy' are matched 
+
+2024-01-17 22:11:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/AsiaQuest Main Page/FooterLink", ["i":i]), 5): Object 'Object Repository/AsiaQuest Main Page/FooterLink' is present
+
+2024-01-17 22:11:40 - [MESSAGE][PASSED] - Object 'Object Repository/AsiaQuest Main Page/FooterLink' is present
+
+2024-01-17 22:11:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AsiaQuest Main Page/FooterLink", ["i":i])): Object: 'Object Repository/AsiaQuest Main Page/FooterLink' is clicked on
+
+2024-01-17 22:11:41 - [MESSAGE][PASSED] - Object: 'Object Repository/AsiaQuest Main Page/FooterLink' is clicked on
+
+2024-01-17 22:11:41 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2024-01-17 22:11:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2024-01-17 22:11:44 - [TEST_STEP][PASSED] - getClass = getAttribute(findTestObject("Object Repository/AsiaQuest Main Page/FooterLink", ["i":i]), "class"): Attribute 'class' of object 'Object Repository/AsiaQuest Main Page/FooterLink' is: 'hs-menu-item hs-menu-depth-1 active active-branch'
+
+2024-01-17 22:11:45 - [MESSAGE][PASSED] - Attribute 'class' of object 'Object Repository/AsiaQuest Main Page/FooterLink' is: 'hs-menu-item hs-menu-depth-1 active active-branch'
+
+2024-01-17 22:11:45 - [TEST_STEP][PASSED] - getHref = getAttribute(findTestObject("Object Repository/AsiaQuest Main Page/FooterLink-A Href", ["i":i]), "href"): Attribute 'href' of object 'Object Repository/AsiaQuest Main Page/FooterLink-A Href' is: 'https://www.asia-quest.jp/en/security'
+
+2024-01-17 22:11:45 - [MESSAGE][PASSED] - Attribute 'href' of object 'Object Repository/AsiaQuest Main Page/FooterLink-A Href' is: 'https://www.asia-quest.jp/en/security'
+
+2024-01-17 22:11:45 - [TEST_STEP][PASSED] - getURL = getUrl(): Current window's url is: 'https://www.asia-quest.jp/en/security'
+
+2024-01-17 22:11:45 - [MESSAGE][PASSED] - Current window's url is: 'https://www.asia-quest.jp/en/security'
+
+2024-01-17 22:11:45 - [TEST_STEP][PASSED] - verifyMatch(getClass, "hs-menu-item hs-menu-depth-1 active active-branch", false): Actual text 'hs-menu-item hs-menu-depth-1 active active-branch' and expected text 'hs-menu-item hs-menu-depth-1 active active-branch' are matched 
+
+2024-01-17 22:11:45 - [MESSAGE][PASSED] - Actual text 'hs-menu-item hs-menu-depth-1 active active-branch' and expected text 'hs-menu-item hs-menu-depth-1 active active-branch' are matched 
+
+2024-01-17 22:11:45 - [TEST_STEP][PASSED] - verifyMatch(getURL, getHref, false): Actual text 'https://www.asia-quest.jp/en/security' and expected text 'https://www.asia-quest.jp/en/security' are matched 
+
+2024-01-17 22:11:45 - [MESSAGE][PASSED] - Actual text 'https://www.asia-quest.jp/en/security' and expected text 'https://www.asia-quest.jp/en/security' are matched 
+
+2024-01-17 22:11:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/AsiaQuest Main Page/FooterLink", ["i":i]), 5): Object 'Object Repository/AsiaQuest Main Page/FooterLink' is present
+
+2024-01-17 22:11:46 - [MESSAGE][PASSED] - Object 'Object Repository/AsiaQuest Main Page/FooterLink' is present
+
+2024-01-17 22:11:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AsiaQuest Main Page/FooterLink", ["i":i])): Object: 'Object Repository/AsiaQuest Main Page/FooterLink' is clicked on
+
+2024-01-17 22:11:47 - [MESSAGE][PASSED] - Object: 'Object Repository/AsiaQuest Main Page/FooterLink' is clicked on
+
+2024-01-17 22:11:47 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2024-01-17 22:11:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2024-01-17 22:11:50 - [TEST_STEP][PASSED] - getClass = getAttribute(findTestObject("Object Repository/AsiaQuest Main Page/FooterLink", ["i":i]), "class"): Attribute 'class' of object 'Object Repository/AsiaQuest Main Page/FooterLink' is: 'hs-menu-item hs-menu-depth-1 active active-branch'
+
+2024-01-17 22:11:50 - [MESSAGE][PASSED] - Attribute 'class' of object 'Object Repository/AsiaQuest Main Page/FooterLink' is: 'hs-menu-item hs-menu-depth-1 active active-branch'
+
+2024-01-17 22:11:50 - [TEST_STEP][PASSED] - getHref = getAttribute(findTestObject("Object Repository/AsiaQuest Main Page/FooterLink-A Href", ["i":i]), "href"): Attribute 'href' of object 'Object Repository/AsiaQuest Main Page/FooterLink-A Href' is: 'https://www.asia-quest.jp/en/isms'
+
+2024-01-17 22:11:51 - [MESSAGE][PASSED] - Attribute 'href' of object 'Object Repository/AsiaQuest Main Page/FooterLink-A Href' is: 'https://www.asia-quest.jp/en/isms'
+
+2024-01-17 22:11:51 - [TEST_STEP][PASSED] - getURL = getUrl(): Current window's url is: 'https://www.asia-quest.jp/en/isms'
+
+2024-01-17 22:11:51 - [MESSAGE][PASSED] - Current window's url is: 'https://www.asia-quest.jp/en/isms'
+
+2024-01-17 22:11:51 - [TEST_STEP][PASSED] - verifyMatch(getClass, "hs-menu-item hs-menu-depth-1 active active-branch", false): Actual text 'hs-menu-item hs-menu-depth-1 active active-branch' and expected text 'hs-menu-item hs-menu-depth-1 active active-branch' are matched 
+
+2024-01-17 22:11:51 - [MESSAGE][PASSED] - Actual text 'hs-menu-item hs-menu-depth-1 active active-branch' and expected text 'hs-menu-item hs-menu-depth-1 active active-branch' are matched 
+
+2024-01-17 22:11:51 - [TEST_STEP][PASSED] - verifyMatch(getURL, getHref, false): Actual text 'https://www.asia-quest.jp/en/isms' and expected text 'https://www.asia-quest.jp/en/isms' are matched 
+
+2024-01-17 22:11:51 - [MESSAGE][PASSED] - Actual text 'https://www.asia-quest.jp/en/isms' and expected text 'https://www.asia-quest.jp/en/isms' are matched 
+
+2024-01-17 22:11:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-17 22:11:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-01-17 22:08:48 - [TEST_SUITE][PASSED] - All Test Case: Test Cases/4 - Check Footer Link]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

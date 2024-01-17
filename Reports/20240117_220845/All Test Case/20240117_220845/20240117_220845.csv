@@ -1,0 +1,40 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+All Test Case,Chrome 120.0.0.0,,,2024-01-17 22:08:48,2024-01-17 22:11:52,3m - 3.513s,PASSED
+,,,,,,,
+Test Cases/1 - Open Browser,Chrome 120.0.0.0,,,2024-01-17 22:08:49,2024-01-17 22:09:01,12.449s,PASSED
+"openBrowser(""https://aqi.co.id"")",Chrome 120.0.0.0,,,2024-01-17 22:08:49,2024-01-17 22:08:57,8.265s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,2024-01-17 22:08:57,2024-01-17 22:08:57,0.194s,PASSED
+"verifyElementPresent(findTestObject(""AsiaQuest Main Page/Image Check Page""), 5)",Chrome 120.0.0.0,,,2024-01-17 22:08:57,2024-01-17 22:08:59,1.934s,PASSED
+"click(findTestObject(""AsiaQuest Main Page/ConfirmCookies""))",Chrome 120.0.0.0,,,2024-01-17 22:08:59,2024-01-17 22:09:00,0.649s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2024-01-17 22:09:00,2024-01-17 22:09:01,1.005s,PASSED
+,,,,,,,
+Test Cases/2 - Open All Menu Tab,Chrome 120.0.0.0,,,2024-01-17 22:09:01,2024-01-17 22:09:59,58.150s,PASSED
+asiaquest.basicKeyword.openBrowser(),Chrome 120.0.0.0,,,2024-01-17 22:09:01,2024-01-17 22:09:32,30.194s,PASSED
+"for ([i = 1, i < 7, (i++)])",Chrome 120.0.0.0,,,2024-01-17 22:09:32,2024-01-17 22:09:58,26.702s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2024-01-17 22:09:58,2024-01-17 22:09:59,0.924s,PASSED
+,,,,,,,
+Test Cases/3 - Change Language,Chrome 120.0.0.0,,,2024-01-17 22:09:59,2024-01-17 22:11:06,1m - 6.918s,PASSED
+"getURL = """"",Chrome 120.0.0.0,,,2024-01-17 22:09:59,2024-01-17 22:09:59,0.001s,PASSED
+asiaquest.basicKeyword.openBrowser(),Chrome 120.0.0.0,,,2024-01-17 22:09:59,2024-01-17 22:10:49,49.894s,PASSED
+"comment(""Change to Japanese"")",Chrome 120.0.0.0,,,2024-01-17 22:10:49,2024-01-17 22:10:49,0.009s,PASSED
+"click(findTestObject(""Object Repository/AsiaQuest Main Page/ChangeLanguageButton""))",Chrome 120.0.0.0,,,2024-01-17 22:10:49,2024-01-17 22:10:50,0.891s,PASSED
+"verifyElementPresent(findTestObject(""AsiaQuest Main Page/Japanese""), 0)",Chrome 120.0.0.0,,,2024-01-17 22:10:50,2024-01-17 22:10:51,0.451s,PASSED
+"verifyElementPresent(findTestObject(""AsiaQuest Main Page/English""), 0)",Chrome 120.0.0.0,,,2024-01-17 22:10:51,2024-01-17 22:10:51,0.377s,PASSED
+"click(findTestObject(""AsiaQuest Main Page/Japanese""))",Chrome 120.0.0.0,,,2024-01-17 22:10:51,2024-01-17 22:10:52,1.373s,PASSED
+delay(5),Chrome 120.0.0.0,,,2024-01-17 22:10:52,2024-01-17 22:10:58,5.019s,PASSED
+getURL = getUrl(),Chrome 120.0.0.0,,,2024-01-17 22:10:58,2024-01-17 22:10:58,0.043s,PASSED
+"verifyMatch(getURL, ""https://www.asia-quest.jp/"", false)",Chrome 120.0.0.0,,,2024-01-17 22:10:58,2024-01-17 22:10:58,0.017s,PASSED
+"comment(""Change to English"")",Chrome 120.0.0.0,,,2024-01-17 22:10:58,2024-01-17 22:10:58,0.004s,PASSED
+"click(findTestObject(""Object Repository/AsiaQuest Main Page/ChangeLanguageButton""))",Chrome 120.0.0.0,,,2024-01-17 22:10:58,2024-01-17 22:10:58,0.408s,PASSED
+"verifyElementPresent(findTestObject(""AsiaQuest Main Page/Japanese""), 0)",Chrome 120.0.0.0,,,2024-01-17 22:10:58,2024-01-17 22:10:58,0.416s,PASSED
+"verifyElementPresent(findTestObject(""AsiaQuest Main Page/English""), 0)",Chrome 120.0.0.0,,,2024-01-17 22:10:58,2024-01-17 22:10:59,0.396s,PASSED
+"click(findTestObject(""AsiaQuest Main Page/English""))",Chrome 120.0.0.0,,,2024-01-17 22:10:59,2024-01-17 22:11:00,1.267s,PASSED
+delay(5),Chrome 120.0.0.0,,,2024-01-17 22:11:00,2024-01-17 22:11:05,5.009s,PASSED
+getURL = getUrl(),Chrome 120.0.0.0,,,2024-01-17 22:11:05,2024-01-17 22:11:05,0.011s,PASSED
+"verifyMatch(getURL, ""https://www.asia-quest.jp/en/"", false)",Chrome 120.0.0.0,,,2024-01-17 22:11:05,2024-01-17 22:11:05,0.009s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2024-01-17 22:11:05,2024-01-17 22:11:06,0.982s,PASSED
+,,,,,,,
+Test Cases/4 - Check Footer Link,Chrome 120.0.0.0,,,2024-01-17 22:11:06,2024-01-17 22:11:52,45.583s,PASSED
+asiaquest.basicKeyword.openBrowser(),Chrome 120.0.0.0,,,2024-01-17 22:11:06,2024-01-17 22:11:34,27.178s,PASSED
+"for ([i = 1, i < 4, (i++)])",Chrome 120.0.0.0,,,2024-01-17 22:11:34,2024-01-17 22:11:51,17.138s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2024-01-17 22:11:51,2024-01-17 22:11:52,0.957s,PASSED
